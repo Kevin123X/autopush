@@ -1,6 +1,7 @@
 git add .
 set "timestamp=%date:~,4%%date:~5,2%%date:~8,2%%time:~0,2%%time:~3,2%%time:~6,2%"
-set /p input=ï¿½ï¿½ï¿½Â£ï¿½
+echo ÇëÊäÈëcommit ĞÅÏ¢
+set /p input=
 git commit -m  "%timeStamp%%input%"
 git push
 exit
